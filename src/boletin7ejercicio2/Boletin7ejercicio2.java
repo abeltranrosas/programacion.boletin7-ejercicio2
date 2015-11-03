@@ -10,9 +10,9 @@ public class Boletin7ejercicio2 {
         short num2 = 3;
        System.out.println("introduce un numero + visualizar la suma");
        if(num1>num2)
-           System.out.print("el numero es positivo");
-       else
-           System.out.print("el numero es negativo");
+           System.out.print(num1+ "mayor que "+(num1-num2));
+        System.out.println("la suma es "+(num1+num2));
+          
     }
     
     
